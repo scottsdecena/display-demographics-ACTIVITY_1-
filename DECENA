@@ -1,0 +1,32 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string StudentID = "21547237";
+        string FullName = "Scotts Decena";
+        string NickName = "Scotty";
+        string Gender = "Male";
+        int YearLevel = 3;
+        string HomeLocation = "Cebu City";
+        string Course = "BSIT";
+        string MobileNo = "09356788194";
+        string PersonalEmail = "scottsdecena@gmail.com";
+
+        Console.WriteLine("Demographics Program by: Scotts Decena\n");
+        
+        Console.WriteLine("Student ID    :" + StudentID);
+        Console.WriteLine("Full Name     :" + FullName);
+        Console.WriteLine("Nick Name     :" + NickName);
+        Console.WriteLine("Gender        :" + Gender);
+        Console.WriteLine("Year Level    :" + YearLevel);
+        Console.WriteLine("Home Location :" + HomeLocation);
+        Console.WriteLine("Course        :" + Course);
+        Console.WriteLine("Mobile No.    :" + MobileNo);
+        Console.WriteLine("Personal Email:" + PersonalEmail);
+
+        Console.WriteLine("\nPress any key to exit...");
+        Console.ReadKey();
+    }
+}
